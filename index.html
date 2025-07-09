@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>starbox_bakery</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="author" content="templatesjungle">
+  <meta name="keywords" content="pressure washing website template">
+  <meta name="description" content="JetWash is a Pressure Washing HTML/CSS Website Template">
+
+  <!--Bootstrap ================================================== -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+  <!--vendor css ================================================== -->
+  <link rel="stylesheet" type="text/css" href="css/vendor.css">
+
+  <!--Link Swiper's CSS ================================================== -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+  <!-- Style Sheet ================================================== -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <!-- Google Fonts ================================================== -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+    <symbol xmlns="http://www.w3.org/2000/svg" id="send" viewBox="0 0 24 24">
+      <g fill="none">
+        <path
+          d="M24 0v24H0V0zM12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035c-.01-.004-.019-.001-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427c-.002-.01-.009-.017-.017-.018m.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093c.012.004.023 0 .029-.008l.004-.014l-.034-.614c-.003-.012-.01-.02-.02-.022m-.715.002a.023.023 0 0 0-.027.006l-.006.014l-.034.614c0 .012.007.02.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01z" />
+        <path fill="currentColor"
+          d="m21.433 4.861l-6 15.5a1 1 0 0 1-1.624.362l-3.382-3.235l-2.074 2.073a.5.5 0 0 1-.853-.354v-4.519L2.309 9.723a1 1 0 0 1 .442-1.691l17.5-4.5a1 1 0 0 1 1.181 1.329ZM19 6.001L8.032 13.152l1.735 1.66L19 6Z" />
+      </g>
+    </symbol>
+    <symbol xmlns="http://www.w3.org/2000/svg" id="quote" viewBox="0 0 16 16">
+      <path fill="currentColor"
+        d="M7 7v7H0V6.9c0-4.8 4.5-5.4 4.5-5.4l.6 1.4s-2 .3-2.4 1.9C2.3 6 3.1 7 3.1 7zm9 0v7H9V6.9c0-4.8 4.5-5.4 4.5-5.4l.6 1.4s-2 .3-2.4 1.9c-.4 1.2.4 2.2.4 2.2z" />
+    </symbol>
+    <symbol xmlns="http://www.w3.org/2000/svg" id="play" viewBox="0 0 24 24">
+      <path fill="currentColor"
+        d="M9.5 15.584V8.416a.5.5 0 0 1 .77-.42l5.576 3.583a.5.5 0 0 1 0 .842l-5.576 3.584a.5.5 0 0 1-.77-.42Z" />
+      <path fill="currentColor"
+        d="M1 12C1 5.925 5.925 1 12 1s11 4.925 11 11s-4.925 11-11 11S1 18.075 1 12m11-9.5A9.5 9.5 0 0 0 2.5 12a9.5 9.5 0 0 0 9.5 9.5a9.5 9.5 0 0 0 9.5-9.5A9.5 9.5 0 0 0 12 2.5" />
+    </symbol>
+    <symbol xmlns="http://www.w3.org/2000/svg" id="navbar-icon" viewBox="0 0 16 16">
+      <path
+        d="M14 10.5a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0 0 1h3a.5.5 0 0 0 .5-.5zm0-3a.5.5 0 0 0-.5-.5h-7a.5.5 0 0 0 0 1h7a.5.5 0 0 0 .5-.5zm0-3a.5.5 0 0 0-.5-.5h-11a.5.5 0 0 0 0 1h11a.5.5 0 0 0 .5-.5z" />
+    </symbol>
+
+    <symbol xmlns="http://www.w3.org/2000/svg" id="location" viewBox="0 0 24 24">
+      <path fill="currentColor"
+        d="M12 11.5A2.5 2.5 0 0 1 9.5 9A2.5 2.5 0 0 1 12 6.5A2.5 2.5 0 0 1 14.5 9a2.5 2.5 0 0 1-2.5 2.5M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7" />
+    </symbol>
+    <symbol xmlns="http://www.w3.org/2000/svg" id="phone" viewBox="0 0 24 24">
+      <path fill="currentColor"
+        d="m16.556 12.906l-.455.453s-1.083 1.076-4.038-1.862s-1.872-4.014-1.872-4.014l.286-.286c.707-.702.774-1.83.157-2.654L9.374 2.86C8.61 1.84 7.135 1.705 6.26 2.575l-1.57 1.56c-.433.432-.723.99-.688 1.61c.09 1.587.808 5 4.812 8.982c4.247 4.222 8.232 4.39 9.861 4.238c.516-.048.964-.31 1.325-.67l1.42-1.412c.96-.953.69-2.588-.538-3.255l-1.91-1.039c-.806-.437-1.787-.309-2.417.317" />
+    </symbol>
+    <symbol xmlns="http://www.w3.org/2000/svg" id="chevron-back-circle" viewBox="0 0 512 512">
+      <path fill="currentColor"
+        d="M256 48C141.13 48 48 141.13 48 256s93.13 208 208 208s208-93.13 208-208S370.87 48 256 48m35.31 292.69a16 16 0 1 1-22.62 22.62l-96-96a16 16 0 0 1 0-22.62l96-96a16 16 0 0 1 22.62 22.62L206.63 256Z" />
+    </symbol>
+    <symbol xmlns="http://www.w3.org/2000/svg" id="chevron-forward-circle" viewBox="0 0 512 512">
+      <path fill="currentColor"
+        d="M48 256c0 114.87 93.13 208 208 208s208-93.13 208-208S370.87 48 256 48S48 141.13 48 256m257.37 0l-84.68-84.69a16 16 0 0 1 22.62-22.62l96 96a16 16 0 0 1 0 22.62l-96 96a16 16 0 0 1-22.62-22.62Z" />
+    </symbol>
+    <symbol xmlns="http://www.w3.org/2000/svg" id="email" viewBox="0 0 24 24">
+      <path fill="currentColor"
+        d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5l-8-5V6l8 5l8-5v2z" />
+    </symbol>
+    <symbol xmlns="http://www.w3.org/2000/svg" id="clock" viewBox="0 0 24 24">
+      <path fill="currentColor"
+        d="M12 2A10 10 0 0 0 2 12a10 10 0 0 0 10 10a10 10 0 0 0 10-10A10 10 0 0 0 12 2m4.2 14.2L11 13V7h1.5v5.2l4.5 2.7z" />
+    </symbol>
+    <symbol xmlns="http://www.w3.org/2000/svg" id="star" viewBox="0 0 512 512">
+      <path fill="currentColor"
+        d="M394 480a16 16 0 0 1-9.39-3L256 383.76L127.39 477a16 16 0 0 1-24.55-18.08L153 310.35L23 221.2a16 16 0 0 1 9-29.2h160.38l48.4-148.95a16 16 0 0 1 30.44 0l48.4 149H480a16 16 0 0 1 9.05 29.2L359 310.35l50.13 148.53A16 16 0 0 1 394 480" />
+    </symbol>
+    <symbol xmlns="http://www.w3.org/2000/svg" id="play-circle" viewBox="0 0 24 24">
+      <path fill="currentColor"
+        d="m9.5 16.5l7-4.5l-7-4.5zM12 22q-2.075 0-3.9-.788t-3.175-2.137q-1.35-1.35-2.137-3.175T2 12q0-2.075.788-3.9t2.137-3.175q1.35-1.35 3.175-2.137T12 2q2.075 0 3.9.788t3.175 2.137q1.35 1.35 2.138 3.175T22 12q0 2.075-.788 3.9t-2.137 3.175q-1.35 1.35-3.175 2.138T12 22m0-2q3.35 0 5.675-2.325T20 12q0-3.35-2.325-5.675T12 4Q8.65 4 6.325 6.325T4 12q0 3.35 2.325 5.675T12 20m0-8" />
+    </symbol>
+    <symbol xmlns="http://www.w3.org/2000/svg" id="facebook" viewBox="0 0 24 24">
+      <path fill="currentColor"
+        d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c5.05-.5 9-4.76 9-9.95z" />
+    </symbol>
+    <symbol xmlns="http://www.w3.org/2000/svg" id="youtube" viewBox="0 0 32 32">
+      <path fill="currentColor"
+        d="M29.41 9.26a3.5 3.5 0 0 0-2.47-2.47C24.76 6.2 16 6.2 16 6.2s-8.76 0-10.94.59a3.5 3.5 0 0 0-2.47 2.47A36.13 36.13 0 0 0 2 16a36.13 36.13 0 0 0 .59 6.74a3.5 3.5 0 0 0 2.47 2.47c2.18.59 10.94.59 10.94.59s8.76 0 10.94-.59a3.5 3.5 0 0 0 2.47-2.47A36.13 36.13 0 0 0 30 16a36.13 36.13 0 0 0-.59-6.74ZM13.2 20.2v-8.4l7.27 4.2Z" />
+    </symbol>
+    <symbol xmlns="http://www.w3.org/2000/svg" id="instagram" viewBox="0 0 256 256">
+      <path fill="currentColor"
+        d="M128 80a48 48 0 1 0 48 48a48.05 48.05 0 0 0-48-48Zm0 80a32 32 0 1 1 32-32a32 32 0 0 1-32 32Zm48-136H80a56.06 56.06 0 0 0-56 56v96a56.06 56.06 0 0 0 56 56h96a56.06 56.06 0 0 0 56-56V80a56.06 56.06 0 0 0-56-56Zm40 152a40 40 0 0 1-40 40H80a40 40 0 0 1-40-40V80a40 40 0 0 1 40-40h96a40 40 0 0 1 40 40ZM192 76a12 12 0 1 1-12-12a12 12 0 0 1 12 12Z" />
+    </symbol>
+    <symbol xmlns="http://www.w3.org/2000/svg" id="twitter" viewBox="0 0 24 24">
+      <path fill="currentColor"
+        d="M22.46 6c-.77.35-1.6.58-2.46.69c.88-.53 1.56-1.37 1.88-2.38c-.83.5-1.75.85-2.72 1.05C18.37 4.5 17.26 4 16 4c-2.35 0-4.27 1.92-4.27 4.29c0 .34.04.67.11.98C8.28 9.09 5.11 7.38 3 4.79c-.37.63-.58 1.37-.58 2.15c0 1.49.75 2.81 1.91 3.56c-.71 0-1.37-.2-1.95-.5v.03c0 2.08 1.48 3.82 3.44 4.21a4.22 4.22 0 0 1-1.93.07a4.28 4.28 0 0 0 4 2.98a8.521 8.521 0 0 1-5.33 1.84c-.34 0-.68-.02-1.02-.06C3.44 20.29 5.7 21 8.12 21C16 21 20.33 14.46 20.33 8.79c0-.19 0-.37-.01-.56c.84-.6 1.56-1.36 2.14-2.23Z" />
+    </symbol>
+    <symbol xmlns="http://www.w3.org/2000/svg" id="linkedin" viewBox="0 0 512 512">
+      <path fill="currentColor"
+        d="M444.17 32H70.28C49.85 32 32 46.7 32 66.89v374.72C32 461.91 49.85 480 70.28 480h373.78c20.54 0 35.94-18.21 35.94-38.39V66.89C480.12 46.7 464.6 32 444.17 32Zm-273.3 373.43h-64.18V205.88h64.18ZM141 175.54h-.46c-20.54 0-33.84-15.29-33.84-34.43c0-19.49 13.65-34.42 34.65-34.42s33.85 14.82 34.31 34.42c-.01 19.14-13.31 34.43-34.66 34.43Zm264.43 229.89h-64.18V296.32c0-26.14-9.34-44-32.56-44c-17.74 0-28.24 12-32.91 23.69c-1.75 4.2-2.22 9.92-2.22 15.76v113.66h-64.18V205.88h64.18v27.77c9.34-13.3 23.93-32.44 57.88-32.44c42.13 0 74 27.77 74 87.64Z" />
+    </symbol>
+    <symbol xmlns="http://www.w3.org/2000/svg" id="search" viewBox="0 0 512 512">
+      <path fill="currentColor"
+        d="M456.69 421.39L362.6 327.3a173.81 173.81 0 0 0 34.84-104.58C397.44 126.38 319.06 48 222.72 48S48 126.38 48 222.72s78.38 174.72 174.72 174.72A173.81 173.81 0 0 0 327.3 362.6l94.09 94.09a25 25 0 0 0 35.3-35.3M97.92 222.72a124.8 124.8 0 1 1 124.8 124.8a124.95 124.95 0 0 1-124.8-124.8" />
+    </symbol>
+    <symbol xmlns="http://www.w3.org/2000/svg" id="arrow-down" viewBox="0 0 16 16">
+      <path fill-rule="evenodd"
+        d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+    </symbol>
+    <symbol xmlns="http://www.w3.org/2000/svg" id="plus" viewBox="0 0 16 16">
+      <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
+    </symbol>
+    <symbol xmlns="http://www.w3.org/2000/svg" id="minus" viewBox="0 0 16 16">
+      <path d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z" />
+    </symbol>
+  </svg>
+
+  <header id="header">
+    <nav class="header-top bg-secondary py-1">
+      <div class="container">
+        <div class="d-flex flex-wrap justify-content-between align-items-center">
+          <ul class="info d-flex flex-wrap list-unstyled m-0">
+            <li class="location text-white text-capitalize d-flex align-items-center me-4" style="font-size: 12px;">
+              <svg class="text-primary me-1" width="15" height="15">
+                <use xlink:href="#location"></use>
+              </svg>Ленина ул., 67, Черкесск
+            </li>
+            <li class="phone text-white text-capitalize d-flex align-items-center me-4" style="font-size: 12px;">
+              <svg class="text-primary me-1" width="15" height="15">
+                <use xlink:href="#phone"></use>
+              </svg>+7 (938) 027-04-66
+            </li>
+            <li class="time text-white text-capitalize d-flex align-items-center me-4" style="font-size: 12px;">
+              <svg class="text-primary me-1" width="15" height="15">
+                <use xlink:href="#clock"></use>
+              </svg>08:00–21:30
+            </li>
+          </ul>
+          <ul class="social-links d-flex flex-wrap list-unstyled m-0">
+            <li class="social">
+              <a href="#">
+                <svg class="social me-1" width="16" height="16">
+                  <use xlink:href="#facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social ms-4">
+              <a href="#">
+                <svg class="social me-1" width="16" height="16">
+                  <use xlink:href="#twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social ms-4">
+              <a href="#">
+                <svg class="social me-1" width="16" height="16">
+                  <use xlink:href="#linkedin"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social ms-4">
+              <a href="#">
+                <svg class="social me-1" width="16" height="16">
+                  <use xlink:href="#instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social ms-4">
+              <a href="#">
+                <svg class="social me-1" width="16" height="16">
+                  <use xlink:href="#youtube"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <nav id="primary-header" class="navbar navbar-expand-lg py-3">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="images/2EhPvWGlaq1DTgJi2o06mALOhLvakY9z0owERNs8fG9qyA3kkMmFyQqzjsYvXiFBr1yJxRhqsunYWiSkylPVFH1X.jpg" class="logo img-fluid">
+          <p>Starbox Bakery</p>
+        </a>
+        <button class="navbar-toggler border-0 d-flex d-lg-none order-3 p-2 shadow-none" type="button"
+          data-bs-toggle="offcanvas" data-bs-target="#bdNavbar" aria-controls="bdNavbar" aria-expanded="false">
+          <svg class="navbar-icon" width="60" height="60">
+            <use xlink:href="#navbar-icon"></use>
+          </svg>
+        </button>
+        <div class="header-bottom offcanvas offcanvas-end" id="bdNavbar" aria-labelledby="bdNavbarOffcanvasLabel">
+          <div class="offcanvas-header px-4 pb-0">
+            <button type="button" class="btn-close btn-close-black mt-2" data-bs-dismiss="offcanvas" aria-label="Close"
+              data-bs-target="#bdNavbar"></button>
+          </div>
+          <div class="offcanvas-body align-items-center justify-content-end">
+            <ul class="navbar-nav align-items-center mb-2 mb-lg-0">
+          
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section id="slider">
+    <div class="swiper slider position-relative">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide d-flex"
+          style="background-image: url(images/XXXL\ \(22\).webp); background-size: cover; background-repeat: no-repeat; height: 90vh; background-position: center;">
+
+          <div class="container m-auto ">
+            <div class="text-start col-md-10 offset-md-1">
+              <h2 class="display-1 fw-bold text-white">Ну привет, дорогой гость!</h2>
+              <p class="text-white">Возможно, ты уже всё про нас знаешь. А может, нам только предстоит познакомиться. В любом случае, не будет лишним рассказать, что же можно найти в Starbox Bakery.<br>
+                </p>
+            
+            </div>
+          </div>
+
+        </div>
+        <div class="swiper-slide d-flex"
+          style="background-image: url(images/XXXL\ \(20\).webp); background-size: cover; background-repeat: no-repeat; height: 90vh; background-position: center;">
+
+          <div class="container m-auto ">
+            <div class="text-start col-md-10 offset-md-1">
+              <h2 class="display-1 fw-bold text-white">В первую очередь, это место – </h2>
+              <p class="text-white">настоящая сказка для всех сладкоежек. История Старбокс началась с тортика для одной маленькой принцессы и выросла в кондитерскую, где каждый день готовят более пятидесяти десертов и создают чудесные торты на заказ!<br>
+               </p>
+            </div>
+          </div>
+
+        </div>
+        <div class="swiper-slide d-flex"
+          style="background-image: url(images/XXXL\ \(21\).webp); background-size: cover; background-repeat: no-repeat; height: 90vh; background-position: center;">
+
+          <div class="container m-auto ">
+            <div class="text-start col-md-10 offset-md-1">
+              <h2 class="display-1 fw-bold text-white">Разумеется, любое пироженое требует к себе компанию: </h2>
+              <p class="text-white">ароматный чай или чашку капучино. Ну а вслед за этим, людям захотелось приходить к нам не только на сладенькое – и в итоге мы превратились в полноценное кафе-кондитерскую, где можно ещё и вкусно поесть.</p>
+              
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+      <div class="swiper-pagination slider-pagination position-absolute pb-5"></div>
+    </div>
+  </section>
+  
+<br><br><br> 
+  <section id="about-us">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <div class="imageblock me-4 position-relative">
+            <img class="img-fluid" src="images/XXXL (14).webp" alt="img">
+            
+          </div>
+        </div>
+        <div class="col-lg-6 mt-5 mt-lg-0">
+          <h3 class="display-5 fw-bold mb-3">С первой минутки и по сей день, нашим главным и неизменным принципом остается щепетильное отношение к используемым ингредиентам. </h3>
+          <p>То, что можно приготовить самим, мы обычно не покупаем: хлеб, круассаны, многие соусы и даже мороженое! Честно признаться, даже фастфуд у нас не очень-то и Fast, ведь повара готовят из-под ножа с момента, когда поступает заказ. 
+            <br>Мы едим здесь сами, приводим свои семьи, угощаем друзей и всем советуем делать то же самое!
+          </p> <a class="btn btn-primary" href="https://vk.com/market-211177292?screen=group" role="button">меню😋</a>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="feature">
+    <div class="container">
+      <h6 class="text-primary">Вкусно😋</h6>
+      <h3 class="display-5 fw-bold mb-3">Каждый обретёт в Старбокс что-то для себя.</h3>
+      <p>Девочки, соблюдающие диету – легкий салатик и торт без глютена, фрилансер – бодрящий кофе и бесплатный вай-фай, уставшая мама – минуту спокойствия и горячую еду, а отец семейства, идущий с работы – свежий торт для вечернего чаепития. У нас небольшой, но очень уютный зал с детским уголком, а на улице – просторная летняя веранда, где можно чудесно провести время.  <br> У сладкоежек в Старбокс полный карт-бланш – этого добра у нас так много, что можно пробовать что-то новое хоть каждый день! </p>
+      <div class="row">
+        <div class="col-md-6 col-lg-3">
+          <div class="position-relative">
+            <h2 style="color:#bde6f5; -webkit-text-stroke: 1px #0AA1D6; font-size: 150px;">01.</h2>
+            <h6 class="position-absolute top-100 start-50 translate-end m-0">ООЧень Вкусно😋</h6>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="position-relative">
+            <h2 style="color:#bde6f5; -webkit-text-stroke: 1px #0AA1D6; font-size: 150px;">02.</h2>
+            <h2 class="position-absolute top-100 start-50 translate-end m-0">Добрые и отзывчивые работники🥰</h2>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="position-relative">
+            <h2 style="color:#bde6f5; -webkit-text-stroke: 1px #0AA1D6; font-size: 150px;">03.</h2>
+            <h2 class="position-absolute top-100 start-50 translate-end m-0">Уютное помещение😊</h2>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="position-relative">
+            <h2 style="color:#bde6f5; -webkit-text-stroke: 1px #0AA1D6; font-size: 150px;">04.</h2>
+            <h2 class="position-absolute top-100 start-50 translate-end m-0">Цены добрые и не кусаються😉</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<br><br><br>
+ 
+   
+
+  <section id="projects" class="padding-medium">
+    <div class="container-fluid p-0">
+      <h6 class="text-center text-primary">фоточки</h6>
+      <h3 class="text-center display-5 fw-bold ">нашей кафешки</h3>
+      <div class="my-4">
+        
+      </div>
+
+      <div class="isotope-container">
+        <div class="row">
+          <div class="col-md-4 item residential mb-4">
+            <a href="project-single.html"><img src="images/XXXL (17).webp" alt="image" class="img-fluid"></a>
+            
+          </div>
+          <div class="col-md-4 item commercial mb-4">
+            <a href="project-single.html"><img src="images/XXXL (13).webp" alt="image" class="img-fluid"></a>
+            
+          </div>
+          <div class="col-md-4 item outdoor mb-4">
+            <a href="project-single.html"><img src="images/XXXL (15).webp" alt="image" class="img-fluid"></a>
+            
+          </div>
+          <div class="col-md-4 item commercial mb-4">
+            <a href="project-single.html"><img src="images/XXXL (24).webp" alt="image" class="img-fluid"></a>
+            
+          </div>
+          <div class="col-md-4 item residential mb-4">
+            <a href="project-single.html"><img src="images/XXXL (18).webp" alt="image" class="img-fluid"></a>
+         
+          
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="testimonial">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-1 offset-md-1 ">
+          <div class="me-3">
+            <svg class="text-primary me-1" width="60px" height="60px">
+              <use xlink:href="#quote"></use>
+            </svg>
+          </div>
+        </div>
+        <div class="col-md-9">
+          <div class="swiper testimonial-swiper mt-3">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="review">
+                  <div class="review-content">
+                    <p class="fs-3 fst-italic fw-light lh-base">"Ооооо! Это место просто восторг вызывает!
+Вкусные пирожные и выпечка, нестандартные чайные напитки и отличный кофе. Персонал вежливый, отзывчивый, хорошо знает ассортимент и дает отличные рекомендации. Интерьер приятный, на улице тоже столики есть, обслуживают быстро. А стаканчики с котом это отдельная красота.
+Честно следовали их слогану "это лучшее место забить на диету"."</p>
+                    <h6 class="fw-bold">Юлия С. <span class="fw-normal">|15 июля </span></h6>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="review">
+                  <div class="review-content">
+                    <p class="fs-3 fst-italic fw-light lh-base">"Заведение изначально позиционировалось как кондитерская-кофейня. На данный момент меню как у полноценного кафе.
+Десерты замечательные, выбор достаточно большой, качество на высоте.
+Горячие блюда тоже хороши.
+Атмосфера уютная, зал совсем небольшой, но маленький зал компенсировали летней верандой."</p>
+                    <h6 class="fw-bold">Фатима Кубанова <span class="fw-normal">| 14 ноября </span></h6>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="review">
+                  <div class="review-content">
+                    <p class="fs-3 fst-italic fw-light lh-base">"Классная кофейня, десерты невозможно выбрать, просто глаза разбегаются😅 чай облипиховый очень вкусный😊 Тортики тоже на уровне👌🏻 Дизайн кафе, отдельная тема🥰 Уровень эстетики просто зашкаливает🤩
+"</p>
+                    <h6 class="fw-bold">Виктория Морозова <span class="fw-normal">| 3 мая</span></h6>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="review">
+                  <div class="review-content">
+                    <p class="fs-3 fst-italic fw-light lh-base">"Вкусно 🤤 очень. Все было как всегда. Какая-то очередь, как везде ожидание и прочее, а потом я попробовал этот волшебный чизкейк 😋
+Очень вкусно"</p>
+                    <h6 class="fw-bold">Руслан Г <span class="fw-normal">| 4 ноября </span></h6>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="review">
+                  <div class="review-content">
+                    <p class="fs-3 fst-italic fw-light lh-base">"Приятное кафе, с элементами декора а-ля Гарри Поттер, но без фанатизма)))). Кухню не пробовали. Брали чай и десерт. Разнообразие небольшое из пироженных.
+В выходные вечером людей много. Есть веранда на улице. Алкоголя нет. Совсем. Как и в любых других кафе города."</p>
+                    <h6 class="fw-bold">Карина Соловьева <span class="fw-normal">| 7 января</span></h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination testimonial-pagination text-start position-relative mt-4"></div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <section id="blogs" class="padding-medium">
+    <div class="container">
+      <div class="mb-3 d-flex flex-wrap align-items-center justify-content-between">
+        
+      </div>
+    </div>
+  </section>
+
+  <section id="contact-info" class="padding-small bg-secondary"
+    style="background-image: url(images/XXXL\ \(24\).webp); background-size: cover; background-repeat: no-repeat; height: 40vh; background-position: center;">
+    <div class="container">
+      <div class="d-flex flex-wrap align-content-center align-items-center justify-content-between">
+        <div>
+          <h3 class="display-5 fw-bold text-white mb-3">Не просто кондитерская – лучшее место забить на диету! </h3>
+          <p>свяжитесь с нами по номеру или по кнопке ниже👇🏽</p>
+        </div>
+        <a href="https://t.me/starbox_bakery" class="btn btn-primary">Свяжитесь с нами</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="footer">
+    <div class="container footer-container mt-5 pt-3">
+      <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 my-5 py-5 "> 
+        <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
+          <h5 class="py-3">наш адрес</h5>
+          <ul class="nav flex-column">
+            <li class="location text-capitalize d-flex align-items-center">
+              <svg class="text-primary me-1" width="16" height="16">
+                <use xlink:href="#location"></use>
+              </svg>Ленина ул., 67, Черкесск
+            </li>
+            <li class="phone text-capitalize d-flex align-items-center">
+              <svg class="text-primary me-1" width="16" height="16">
+                <use xlink:href="#phone"></use>
+              </svg>+7 (938) 027-04-66
+            </li>
+            <div class="btn-group">
+  <a href="https://t.me/starbox_bakery" class="btn btn-primary active" aria-current="page"><br>тг</a>
+  <a href="https://vk.com/starbox_bakery" class="btn btn-primary"><br>вк</a>
+  <a href="https://yandex.ru/maps/org/starboks/192411358538/?ll=42.046626%2C44.220739&z=15" class="btn btn-primary">мы на яндекс картах</a>
+</div>
+          </ul>
+          <ul class="social-links d-flex flex-wrap list-unstyled mt-4">
+            <li class="social me-4">
+              <a href="#">
+                <svg width="22" height="22">
+                  <use xlink:href="#facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social me-4">
+              <a href="#">
+                <svg width="22" height="22">
+                  <use xlink:href="#twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social me-4">
+              <a href="#">
+                <svg width="22" height="22">
+                  <use xlink:href="#linkedin"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social me-4">
+              <a href="#">
+                <svg width="22" height="22">
+                  <use xlink:href="#instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social me-4">
+              <a href="#">
+                <svg width="22" height="22">
+                  <use xlink:href="#youtube"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-6 col-lg-2 mb-3 mb-lg-0">
+          
+          <ul class="nav flex-column">
+
+            
+          </ul>
+        </div>
+       
+            
+      </footer>
+    
+    <hr class="text-black">
+
+    <div class="container">
+      <footer class="row align-items-center py-2">
+        <div class="col-md-6 ">
+          <p>© 2025 JetWash - All rights reserved</p>
+
+       
+      </footer>
+    </div>
+  </section>
+
+  <!-- Video Popup -->
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+
+      <div class="modal-content">
+
+        <div class="modal-body">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><svg class="bi" width="40"
+              height="40">
+              <use xlink:href="#close-sharp"></use>
+            </svg></button>
+          <div class="ratio ratio-16x9">
+            <iframe class="embed-responsive-item" src="" id="video" allowscriptaccess="always"
+              allow="autoplay"></iframe>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+  <script src="js/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+  <script type="text/javascript" src="js/plugins.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+  <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+</body>
+
+</html>
